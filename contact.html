@@ -11,15 +11,16 @@
     <link rel="stylesheet" href="index.html">
     <link rel="stylesheet" href="portfolio.html">
     <link rel="stylesheet" href="protfolio.css">
+    <script src="https://kit.fontawesome.com/254873bb91.js"></script>
   </head>
   <body>
     <header>
-        <nav class="navbar  navbar-expand-sm navbar-light background-color">
+        <nav class="navbar fixed-top navbar-expand-sm navbar-light background-color">
             <a class="navbar-brand" href="#">Giuliano Serawop</a>
             <button class="navbar-toggler d-lg-none" type="button" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div >
+            <section>
                 <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                     <li class="nav-item ">
                         <a class="nav-link" href="index.html" >About Me</a>
@@ -31,55 +32,60 @@
                         <a class="nav-link" href="contact.html" >Contact</a>
                     </li>
                 </ul>
-            </div>
+            </section>
         </nav>
     </header>
 
-    <div class="container">
-        <div class="jumbotron my-5">
-            <h1 class="display-4">Contact</h1>
+    <section class="container">
+        <section class="jumbotron margin">
+            <h1 class="display-4">Contact Me</h1>
             <hr class="my-4">
             
-            <div class="form-group">
+            <artical class="form-group margin">
               <label for="fullName">Full Name</label>
               <input type="fullName" class="form-control" name="fullName" id="" aria-describedby="fullNameHelpId" placeholder="Enter Full Name">
-            </div>
-            <div class="form-group">
+            </artical>
+
+            <artical class="form-group margin">
               <label for="email">Email Address</label>
               <input type="email" class="form-control" name="email" id="" aria-describedby="emailHelpId" placeholder="Enter Email Address">
-            </div>
-            <div class="form-group">
+            </artical>
+
+            <artical class="form-group margin">
                 <label for="my-textarea">Message</label>
                 <textarea id="my-textarea" class="form-control" name="message" placeholder="Enter Message" rows="3"></textarea>
-            </div>
-        </div>
+            </artical>
+
+            <article class="my-3">
+                <button class="btn btn-primary" type="submit">Send Message</button>
+            </article>
+        </section>
             
-        
-
-        <div class="row">
-            <div class="col-sm-2">
+        <section class="row">
+            <artical class="col-sm-2">
                 
-            </div>
-            <div class="col-sm-2 my-4">
-                <a href="#">Facebook</a>
-            </div>
-            <div class="col-sm-2 my-4">
-                <a href="#">Instagram</a> 
-            </div>
-            <div class="col-sm-2 my-4">
-                <a href="#">LinkedIn</a> 
-            </div>
-            <div class="col-sm-2 my-4">
-                <a href="#">Github</a>
-            </div>
-        </div>
+            </artical>
+            <artical class="col-sm-2 my-5">
+                <a href="https://www.facebook.com/giuliano.serawop.5" target="_blank"><i class="fab fa-4x fa-facebook"></i></a>
+            </artical>
+            <artical class="col-sm-2 my-5">
+                <a href="https://www.instagram.com/jewls_9/" target="_blank"><i class="fab fa-4x fa-instagram"></i></a> 
+            </artical>
+            <artical class="col-sm-2 my-5">
+                <a href="https://www.linkedin.com/in/giuliano-serawop-526782194/" target="_blank"><i class="fab fa-4x fa-linkedin"></i></a> 
+            </artical>
+            <artical class="col-sm-2 my-5">
+                <a href="https://github.com/Jewls250" target="_blank"><i class="fab fa-4x fa-github-square"></i></a>
+            </artical>
+        </section>
 
-    </div>
+
+    </section>
 
     <footer>
-        <div class="container">
+        <section class="container">
             <p>&copy; Giuliano Serawop | Contact 2020</p>
-        </div>
+        </section>
     </footer>
 
 
